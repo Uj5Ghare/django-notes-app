@@ -20,4 +20,4 @@ jobs:
         aws-region: us-east-1
   
     - name: Deploy static site to $3 bucket
-      run: aws $3 sync. $3://tws-portfolio321 --delete
+      run: aws S3 sync. S3://tws-portfolio321 --delete
